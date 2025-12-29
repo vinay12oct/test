@@ -18,7 +18,7 @@ public class TestController {
 
     @GetMapping("/")
     public String getAll(){
-        return "All is well";
+        return "All the best";
     }
 }
 
