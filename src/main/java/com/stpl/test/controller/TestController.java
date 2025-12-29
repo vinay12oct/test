@@ -15,6 +15,11 @@ public class TestController {
     public String getResult(){
         return "Hello world";
     }
+
+    @GetMapping("/")
+    public String getAll(){
+        return "All is well";
+    }
 }
 
 
